@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Visualization Dashboard</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+    
+                <header class="header">
+                    <h1>Lattitude</h1>
+                </header>
+            </div>
+            <div class="col-md-6">
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                                <select id="nav-select">
+                                        <option value="plots">Plots</option>
+                                        <option value="maxTemp">Max Temperature</option>
+                                        <option value="humidity">Humidity</option>
+                                        <option value="cloudiness">Cloudiness</option>
+                                        <option value="windSpeed">Wind Speed</option>
+                                </select>
+                       </li>
+                        <li>
+                            <a href="comparisons.html">Comparison</a>
+                        </li>
+                        <li>
+                            <a href="data.html">Data</a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+
+            <!-- Row 1 Main header-->
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>Wind Speed</h2>
+                    <img src="Resources/assets/images/Fig4.png" alt="Landing" width="100%">
+                    <p>Windspeed text ... blah... blah...As expected, the weather becomes significantly warmer as ..... This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                </div>
+                <div class="col-md-4">
+                             <h2>Visualization</h2>
+                             <a href="maxtemp.html">
+                             <img class="not-selected-img" src="Resources/assets/images/Fig1.png" alt="Landing" width="40%"></a>
+                             <a href="humidity.html">
+                             <img class="not-selected-img" src="Resources/assets/images/Fig2.png" alt="Landing" width="40%"></a>
+                             <a href="cloudiness.html">
+                             <img class="non-selected-img" src="Resources/assets/images/Fig3.png" alt="Landing" width="40%"></a>
+                             <a href="windspeed.html">
+                             <img class="selected-img" src="Resources/assets/images/Fig4.png" alt="Landing" width="40%"></a>
+                           </div>
+                </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+
